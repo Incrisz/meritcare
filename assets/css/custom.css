@@ -3,9 +3,9 @@
 :root {
     --primary-color: #fff;
     --secondary-color: #232323;
-    --accent: #ee8961;
+    --accent: #2c3874;
     --text-color: #7a7a7a;
-    --button-color: #156c5f;
+    --button-color: #7d1d62;
 }
 
 * {
@@ -382,7 +382,7 @@ h5 {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background: rgb(21, 108, 95, .90);
+    background: rgb(44, 56, 116, .90);
     transition: .4s ease-in-out;
 }
 
@@ -1544,7 +1544,7 @@ h5 {
 /* subscribe section styling start */
 /* footer section style end */
 .footer-main-section {
-    background: #156c5f;
+    background: #7d1d62;
     border-bottom: 1px solid #388277;
 }
 
@@ -1670,7 +1670,7 @@ h5 {
 
 .copy-rihgt-sec {
     padding: 25px 25px;
-    background: #156c5f;
+    background: #7d1d62;
 }
 
 .copy-rihgt-sec p {
@@ -2736,7 +2736,7 @@ h5 {
 .doctor-detail .social-links ul li a:hover {
     color: var(--primary-color);
     border-color: var(--button-color);
-    background: rgb(21, 108, 95, .90);
+    background: rgb(44, 56, 116, .90);
 }
 
 .doctor-detail h4 {
