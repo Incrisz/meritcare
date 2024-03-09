@@ -227,7 +227,7 @@ h5 {
 
 .banner-main-section::after {
     content: "";
-    background: rgb(21, 108, 95, .80);
+    background:  rgb(43, 161, 212, .80);
     position: absolute;
     left: 0;
     top: 0;
