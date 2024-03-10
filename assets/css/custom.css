@@ -712,7 +712,7 @@ h5 {
     content: "";
     width: 333px;
     height: 329px;
-    background: url(../images/shape-img.png) no-repeat;
+    /* background: url(../images/shape-img.png) no-repeat; */
     position: absolute;
     filter: brightness(0) saturate(100%) invert(83%) sepia(11%) saturate(4294%) hue-rotate(310deg) brightness(101%) contrast(88%);
 }
@@ -1785,7 +1785,7 @@ h5 {
 
 .index2-banner-section::after {
     content: "";
-    background: url(../images/banner2-shape-img.png) no-repeat center;
+    /* background: url(../images/banner2-shape-img.png) no-repeat center; */
     background-size: cover;
     height: 259px;
     width: 100%;
