@@ -14,7 +14,7 @@ function getSetting($settingGroup, $settingName){
     if($settingGroup == "" && $settingName == ""){
         return "";
     }
-    $db_setting = new Database("formbuilder");
+    $db_setting = new Database("meritcar_formbuilder");
     $conn = $db_setting->getConnection();
     $isSettingNameOnly = true;
     if($settingGroup != "" && $settingName ==""){

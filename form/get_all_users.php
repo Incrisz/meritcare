@@ -10,7 +10,7 @@ require "settings/database.class.php";
 if(isset($_POST['selectType'])){
     $type = $_POST['selectType'];
     $echo_data = "";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
 
     if($type == "admins"){

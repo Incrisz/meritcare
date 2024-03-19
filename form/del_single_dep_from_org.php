@@ -10,7 +10,7 @@ require "settings/database.class.php";
 if(isset($_POST['depToDel'])){
     $dep_del = $_POST['depToDel'];
     $echo_data = "";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
 
     $user_ids = getData($conn, "organization_tree" , "parent_id='$dep_del'" , "id");

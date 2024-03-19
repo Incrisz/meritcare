@@ -19,7 +19,7 @@ if(isset($_POST['data_indx']) && $_POST["user_id"]){
             $formIdsAry[] = $data_indx;
         }
     }
-    $db_mntly = new Database("formbuilder");
+    $db_mntly = new Database("meritcar_formbuilder");
     $conn = $db_mntly->getConnection();
     
     $sql = "SELECT * FROM form_list";

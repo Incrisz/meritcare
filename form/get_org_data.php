@@ -11,7 +11,7 @@ require "settings/database.class.php";
 if(isset($_POST['data_type'])){
     $dataType = $_POST["data_type"];
  
-    $db_ = new Database("formbuilder");
+    $db_ = new Database("meritcar_formbuilder");
     $conn = $db_->getConnection();
     
     $sql = "SELECT * FROM organization_tree";

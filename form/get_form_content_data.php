@@ -12,7 +12,7 @@ if(isset($_POST['form_id'])){
     $form_id = $_POST["form_id"];
     $uid = $_POST["form_uid"];
     $echo_data = "new";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
     
     $sql = "SELECT * FROM form_content WHERE form_id='$form_id'";

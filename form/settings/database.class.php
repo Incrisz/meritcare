@@ -7,8 +7,8 @@ class Database {
 	private $_connection;
 	private static $_instance; //The single instance
 	private $_host = "localhost";
-	private $_username = "root";
-	private $_password = "koll34ll";
+	private $_username = "meritcar_formbuilder";
+	private $_password = "11NCrease@@";
     private $_database;
     
 	// Constructor

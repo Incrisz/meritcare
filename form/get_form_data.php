@@ -11,7 +11,7 @@ require "settings/database.class.php";
 if(isset($_POST['form_id'])){
     $form_id = $_POST["form_id"];
  
-    $db_mntly = new Database("formbuilder");
+    $db_mntly = new Database("meritcar_formbuilder");
     $conn = $db_mntly->getConnection();
     
     $sql = "SELECT * FROM form_list WHERE indx=$form_id";

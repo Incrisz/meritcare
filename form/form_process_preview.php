@@ -44,7 +44,7 @@ if(isset($_POST['button-submit-form']) &&  $_SESSION['is_form_reload'] == "0"){
     }else{
         $uid = "public-" . md5(time());
     }
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
     
     $frmFields = getFormFieldsNames($conn, $form_id);

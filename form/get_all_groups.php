@@ -15,7 +15,7 @@ if(isset($_POST['searchTerm'])){
     $sql = "SELECT * FROM users_gropes WHERE group_status='1'";
 }
     $echo_data = "";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
     $itemResultsAry = array();
     //$sql = "SELECT * FROM users_gropes";

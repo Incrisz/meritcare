@@ -11,7 +11,7 @@ require "settings/database.class.php";
 if(isset($_POST['form_id'])){
     $form_id = $_POST["form_id"];
     $echo_data = "new";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
     
     $sql = "SELECT * FROM form_content WHERE form_id='$form_id'";

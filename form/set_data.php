@@ -46,7 +46,7 @@ if(isset($_POST['data'])){
     if($tbl == ""){
         die("data table not set");
     }
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
 
     if($actionType == "new"){

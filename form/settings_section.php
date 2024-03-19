@@ -5,7 +5,7 @@ include "chech_restricted.php";
 if(!isset($isSetDBclass)){
   require 'settings/database.class.php';
 }
-$db_ = new Database("formbuilder");
+$db_ = new Database("meritcar_formbuilder");
 $conn = $db_->getConnection();
 
 if(isset($_POST["setting_id"])){

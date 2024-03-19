@@ -21,7 +21,7 @@ if(isset($_POST['formId'])){
 
 function getCustomFormStyle($fromId,$type){
     $data = "";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
     $sql = "SELECT * FROM form_custom_style WHERE form_id='$fromId'";
     if($result = $conn->query($sql)) {

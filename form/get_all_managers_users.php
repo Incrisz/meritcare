@@ -15,7 +15,7 @@ if(isset($_POST['searchTerm'])){
     $sql = "SELECT * FROM users WHERE status='1'";
 }
     $echo_data = "";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
     $itemResultsAry = array();
         $mngrsId = getManagersGroupId($conn,"managers");

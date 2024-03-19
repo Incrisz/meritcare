@@ -6,7 +6,7 @@ if(isset($_POST['table'])){
     require 'settings/database.class.php';
     $table = $_POST["table"];
     $echo_data = "";
-    $db = new Database("formbuilder");
+    $db = new Database("meritcar_formbuilder");
     $conn = $db->getConnection();
     if($table == "users"){
         $echo_data = getUser($conn);
