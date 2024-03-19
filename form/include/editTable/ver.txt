@@ -1,2 +1,0 @@
-https://github.com/meshesha/editTable
-v-0.2.1
