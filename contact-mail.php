@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Attempt to send the email
     if (mail($to, $email_subject, $message, $headers)) {
         // If successful, redirect to a thank you page
-        header("Location: thank-you.html");
+        header("Location: contact.html");
         exit;
     } else {
         // If unsuccessful, display an error message
