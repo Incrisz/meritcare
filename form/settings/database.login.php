@@ -1,8 +1,8 @@
 <?php
 $server = 'localhost';
-$username = 'root';
-$password = 'koll34ll';
-$database = 'formbuilder';
+$username = 'meritcar_formbuilder';
+$password = '11NCrease@@';
+$database = 'meritcar_formbuilder';
 
 try{
 	$conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
