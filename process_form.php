@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Attempt to send the email
     if (mail($to, $email_subject, $message, $headers)) {
         // If successful, redirect to a success page
-        header("Location: https://affixtheme.com/html/xmee/demo/job-1-success.html");
+        header("Location: https://meritcare.co.uk/form/success.html");
         exit;
     } else {
         // If unsuccessful, display an error message
