@@ -12,11 +12,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $city = isset($_POST["city"]) ? trim($_POST["city"]) : "";
     $state = isset($_POST["state"]) ? trim($_POST["state"]) : "";
     $postal_code = isset($_POST["postal_code"]) ? trim($_POST["postal_code"]) : "";
-    $position = isset($_POST["radio-position"]) ? ($_POST["radio-position"] == "on" ? "" : $_POST["radio-position"]) : "";
-    $work_experience = isset($_POST["inputCountry"]) ? ($_POST["inputCountry"] == "on" ? "" : $_POST["inputCountry"]) : "";
-    $employment_type = isset($_POST["radio-availability"]) ? ($_POST["radio-availability"] == "on" ? "" : $_POST["radio-availability"]) : "";
-    $salary_range = isset($_POST["radio-salary"]) ? ($_POST["radio-salary"] == "on" ? "" : $_POST["radio-salary"]) : "";
-    $cover_letter = isset($_POST["cover-letter"]) ? trim($_POST["cover-letter"]) : "";
+    $highest_edu = isset($_POST["highest_edu"]) ? trim($_POST["highest_edu"]) : "";
+    $name_of_institution = isset($_POST["name_of_institution"]) ? trim($_POST["name_of_institution"]) : "";
+    $degree = isset($_POST["degree"]) ? trim($_POST["degree"]) : "";
+    $field_of_study = isset($_POST["field_of_study"]) ? trim($_POST["field_of_study"]) : "";
+    $year_of_graduation = isset($_POST["year_of_graduation"]) ? trim($_POST["year_of_graduation"]) : "";
+    $work_exp = isset($_POST["work_exp"]) ? trim($_POST["work_exp"]) : "";
+    $skills = isset($_POST["skills"]) ? trim($_POST["skills"]) : "";
+    $job_title = isset($_POST["job_title"]) ? trim($_POST["job_title"]) : "";
+    $time = isset($_POST["time"]) ? trim($_POST["time"]) : "";
+    $legal = isset($_POST["legal"]) ? trim($_POST["legal"]) : "";
+    $convicted = isset($_POST["convicted"]) ? trim($_POST["convicted"]) : "";
+    $certifications = isset($_POST["certifications"]) ? trim($_POST["certifications"]) : "";
 
     // Construct the email message
     $message = "Name: $name\n" .
@@ -30,11 +37,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                "City: $city\n" .
                "State: $state\n" .
                "Postal Code: $postal_code\n" .
-               "Job Position: $position\n" .
-               "Work Experience: $work_experience\n" .
-               "Employment Type: $employment_type\n" .
-               "Salary Range: $salary_range\n" .
-               "Cover Letter: $cover_letter";
+               "Highest Level of Education Attained: $highest_edu\n" .
+               "Name of Institution: $name_of_institution\n" .
+               "Degree/Diploma/Certification Obtained: $degree\n" .
+               "Field of Study: $field_of_study\n" .
+               "Year of Graduation: $year_of_graduation\n" .
+               "Previous Work Experience: $work_exp\n" .
+               "Relevant Skills and Qualifications: $skills\n" .
+               "Desired Position/Job Title: $job_title\n" .
+               "Availability: $time\n" .
+               "Legally Authorized to Work: $legal\n" .
+               "Convicted of a Felony: $convicted\n" .
+               "Certifications Relevant to the Position: $certifications";
 
     // Set the recipient email address
     $to = "incrisz4luv@gmail.com";
