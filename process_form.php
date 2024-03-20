@@ -5,12 +5,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = isset($_POST["email"]) ? trim($_POST["email"]) : "";
     $phone = isset($_POST["phone"]) ? trim($_POST["phone"]) : "";
     $age = isset($_POST["age"]) ? trim($_POST["age"]) : "";
-    $gender = isset($_POST["radio-gender"]) ? ($_POST["radio-gender"] == "on" ? "" : $_POST["radio-gender"]) : "";
     $street_line_1 = isset($_POST["street_line_1"]) ? trim($_POST["street_line_1"]) : "";
     $street_line_2 = isset($_POST["street_line_2"]) ? trim($_POST["street_line_2"]) : "";
     $country = isset($_POST["country"]) ? trim($_POST["country"]) : "";
     $city = isset($_POST["city"]) ? trim($_POST["city"]) : "";
-    $state = isset($_POST["state"]) ? trim($_POST["state"]) : "";
     $postal_code = isset($_POST["postal_code"]) ? trim($_POST["postal_code"]) : "";
     $highest_edu = isset($_POST["highest_edu"]) ? trim($_POST["highest_edu"]) : "";
     $name_of_institution = isset($_POST["name_of_institution"]) ? trim($_POST["name_of_institution"]) : "";
@@ -30,12 +28,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                "Email: $email\n" .
                "Phone: $phone\n" .
                "Age: $age\n" .
-               "Gender: $gender\n" .
                "Street Line 1: $street_line_1\n" .
                "Street Line 2: $street_line_2\n" .
                "Country: $country\n" .
                "City: $city\n" .
-               "State: $state\n" .
                "Postal Code: $postal_code\n" .
                "Highest Level of Education Attained: $highest_edu\n" .
                "Name of Institution: $name_of_institution\n" .
