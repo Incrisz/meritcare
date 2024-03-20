@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $work_experience = isset($_POST["inputCountry"]) ? $_POST["inputCountry"] : "";
     $employment_type = isset($_POST["radio-availability"]) ? $_POST["radio-availability"] : "";
     $salary_range = isset($_POST["radio-salary"]) ? $_POST["radio-salary"] : "";
-    $cover_letter = trim($_POST["cover-etter"]);
+    $cover_letter = trim($_POST["cover-letter"]);
     // Construct the email message
     $message = "Name: $name\n" .
                "Email: $email\n" .
