@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                "Certifications Relevant to the Position: $certifications";
 
     // Set the recipient email address
-    $to = "incrisz4luv@gmail.com";
+    $to = "princeadefresh@gmail.com";
 
     // Set the email subject
     $email_subject = "New Job Application Submission";
