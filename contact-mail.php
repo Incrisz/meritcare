@@ -15,8 +15,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                "Message:\n$subject";
     
     // Set the recipient email address
-    // $to = "enquiries@meritcare.co.uk";
-    $to = "incrisz4luv@gmail.com";
+    $to = "enquiries@meritcare.co.uk";
+    // $to = "incrisz4luv@gmail.com";
 
     
     // Set the email subject
