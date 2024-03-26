@@ -14,6 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send email
     if (mail($to, $subject, $email_content)) {
         echo "<p class='success-msg'>Your message has been sent successfully!</p>";
+        header("Location: https://incrisz.netlify.app");
+        exit;
     } else {
         echo "<p class='error-msg'>Oops! Something went wrong. Please try again later.</p>";
     }
