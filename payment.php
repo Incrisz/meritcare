@@ -11,7 +11,7 @@
             <legend>IPG Connect Request Details</legend>
             <p>
                <label for="storename">Store ID:</label>
-               <input type="text" name="storename" value="2206474139" readonly="readonly" />
+               <input type="text" name="storename" value="2220541904" readonly="readonly" />
             </p>
             <p>
                <label for="timezone">Timezone:</label>
@@ -61,7 +61,7 @@
          // NOTE: Please DO NOT hardcode the secret in that script. For example read it from a database.
          $sharedSecret = "AoGvdRPcwizTIJDX6WGCoGK53RR4VnItuXA7Mj6UN2G";
          $separator = "|";
-         $storeId= "2206474139";
+         $storeId= "2220541904";
          $timezone= "Europe/London";
          $txntype= "sale";
          $checkoutoption = "combinedpage";
