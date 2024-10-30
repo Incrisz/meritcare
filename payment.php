@@ -59,7 +59,7 @@
          function createExtendedHash($chargetotal, $currency) {
          // Please change the store Id to your individual Store ID
          // NOTE: Please DO NOT hardcode the secret in that script. For example read it from a database.
-         $sharedSecret = "AoGvdRPcwizTIJDX6WGCoGK53RR4VnItuXA7Mj6UN2G";
+         $sharedSecret = "p}m67qc/DN";
          $separator = "|";
          $storeId= "2220541904";
          $timezone= "Europe/London";
